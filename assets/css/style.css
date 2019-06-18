@@ -1,0 +1,42 @@
+/* .googleCalendar {
+    text-align: center;
+} */
+
+section p,
+.container-fluid {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quote_box {
+    background-color: rgb(215, 215, 215);
+    max-width: 1000px;
+    margin: auto;
+    padding: 15.0em 100px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px;
+
+}
+
+.work img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.9;
+}
