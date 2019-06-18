@@ -2,6 +2,13 @@
     text-align: center;
 } */
 
+body {
+    background:
+        url(photo-1523308458373-c6f61ae1fd21.jpg) no-repeat;
+    background-image: url("../images/photo-1523308458373-c6f61ae1fd21.jpg");
+    background-size: cover;
+}
+
 section p,
 .container-fluid {
     text-align: center;
@@ -35,6 +42,10 @@ img {
 
 h1 {
     text-align: center;
+}
+
+div {
+    opacity: 0.9;
 }
 
 button:hover {
