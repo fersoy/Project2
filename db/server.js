@@ -65,7 +65,7 @@ app.get("/:id", function (req, res) {
     });
 });
 app.post("/api/quotes", function (req, res) {
-    connection.query("INSERT INTO quotes (author, quote, images) VALUES (?, ?)", [req.body.author, req.body.quote, req.body.images], function (
+    connection.query("INSERT INTO quotes (author, quote, images) VALUES (?, ?, ?)", [req.body.author, req.body.quote, req.body.images], function (
         err,
         result
     ) {
@@ -94,7 +94,7 @@ app.post("/", function (req, res) {
 // Update a quote by an id and then redirect to the root route.
 app.put("/api/quotes/:author", function (req, res) {
     connection.query(
-        "UPDATE quotes SET quote = '?', images = ?, author = ? WHERE author = ?",
+        "UPDATE quotes SET quote = ?, images = ?, author = ? WHERE author = ?",
         [req.body.author, req.body.quote, req.body.images],
         function (err, result) {
             if (err) {
