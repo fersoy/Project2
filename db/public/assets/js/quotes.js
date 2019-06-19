@@ -1,3 +1,4 @@
+
 $(function () {
   $(".create-form").on("submit", function (event) {
     // Make sure to preventDefault on a submit event.
@@ -8,7 +9,7 @@ $(function () {
       quote: $("#quo").val().trim(),
       images: $("#upload").val().trim()
     };
-
+    console.log("new qute", newQuote);
     // Send the POST request.
     $.ajax("/api/quotes", {
       type: "POST",
