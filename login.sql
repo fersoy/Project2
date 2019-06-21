@@ -1,0 +1,3 @@
+USE MMM;
+
+SELECT * FROM Users;

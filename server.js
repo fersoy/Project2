@@ -34,7 +34,8 @@ app.set('views', __dirname + '/views');
 // =============================================================
 require("./routes/htmlRoutes.js")(app);
 require("./routes/quote-api-routes.js")(app);
-require("./routes/api-routes.js")(app);
+require("./routes/login-html-routes")(app);
+require("./routes/login-api-routes")(app);
 // require("./routes/post-api-routes.js")(app);
 
 // Syncing our sequelize models and then starting our Express app
