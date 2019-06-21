@@ -1,4 +1,4 @@
-USE MMM ;
+USE MMM;
 
 
 INSERT INTO Quotes(author, quote, image)
