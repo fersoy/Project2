@@ -1,7 +1,11 @@
 {
     "development": {
         "username": "root",
+<<<<<<< HEAD
         "password": process.env.DB_PASS,
+=======
+        "password": "hafaer66",
+>>>>>>> 22933d9c9808c4cf62a0d34248e906a6c57067aa
         "database": "MMM",
         "host": "localhost",
         "port": 3306,
