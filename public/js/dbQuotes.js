@@ -22,6 +22,17 @@ $(document).ready(function () {
                     location.reload();
                 }
             );
+            $(document).on("click", ".delquote", handleDeleteButtonPress);
+            function handleDeleteButtonPress() {
+
+                $.ajax({
+                    method: "DELETE",
+                    url: req.params.id
+                })
+                    .then(newQuote);
+            }
         });
     });
+
+
 });
