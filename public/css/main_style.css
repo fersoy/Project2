@@ -1,0 +1,58 @@
+body {
+    background:
+        url(photo-1523308458373-c6f61ae1fd21.jpg) no-repeat;
+    background-image: url("../images/photo-1523308458373-c6f61ae1fd21.jpg");
+    background-size: cover;
+}
+
+section p,
+.container-fluid {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.quote_box {
+    background-color: rgb(215, 215, 215);
+    max-width: 1000px;
+    margin: auto;
+    padding: 15.0em 100px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+}
+
+.work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px;
+
+}
+
+.nav-item {
+    color: #83008a;
+}
+
+.work img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 0.9;
+}

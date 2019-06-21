@@ -1,4 +1,4 @@
-USE PROJECT_2;
+USE MMM;
 
 
 INSERT INTO Quotes(author, quote, image)
