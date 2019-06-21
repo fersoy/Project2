@@ -1,0 +1,75 @@
+<div class="bigContainer">
+    {{!-- <div class="modal">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Search</button>
+
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <input type="text" placeholder="search for quotes">
+                </div>
+            </div>
+        </div>
+
+    </div> --}}
+    <div class="apiQuote"></div>
+    <div class="dbQuote">
+
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Sign Up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+            </li>
+        </ul>
+
+        <h1>Unforgettable Love and Marriage</h1>
+
+        <h3>Wedding Quotes For Him/Her</h3>
+
+        <!-- Pass in data from server.js -->
+        <div class="quoteCards">
+            <section class="container-fluid">
+                <div id="sanane"> {{#each quotes}}
+                    <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img id="upload" src="{{this.image}}" alt="Avatar" style="width:250px;height:250px;">
+                                </div>
+                                <div class="flip-card-back">
+                                    <p>{{this.quote}}</p><br>
+                                    <p>{{this.author}}</p><br>
+                                    <a id="allCard" class="send" href="/{{this.id}}"><button>Send</button> </a>
+                                </div>
+                            </div>
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+
+                <h2>Add a Quote</h2>
+
+
+                <form class="create-form">
+
+                    <div class="form-group">
+                        <label for="auth">Author:</label>
+                        <input type="text" id="auth" name="author">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="quo">Quote:</label>
+                        <textarea id="quo" name="quote" rows="8" cols="40"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <p>Add Picture:</p>
+                        <input id="upload1" type="text" name="author"> <br>
+                        <button onclick="myFunction()">Add Quote</button>
+                    </div>
+                </form>
+                <script>
+                    function myFunction() {
+                        document.getElementById("upload").value = document.getElementById("upload1").value;
+                    }
+                </script>
