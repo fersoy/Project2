@@ -82,6 +82,8 @@ h3 {
 
 h2 {
   text-align: center;
+  color: red;
+  font-family: 'Lobster', cursive;
 
 }
 
@@ -92,8 +94,9 @@ img {
 
 li {
   padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  /* background: #faebd7; */
 }
 
 .label {
@@ -119,3 +122,6 @@ li {
   margin-top: 50px;
 }
 /* quote form  */
+#follow{
+  text-align: center;
+}
