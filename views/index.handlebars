@@ -1,4 +1,9 @@
 <link href="https://fonts.googleapis.com/css?family=Lobster|Noto+Sans+HK&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster|Noto+Sans+HK&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="bigContainer">
     {{!-- <div class="modal">
@@ -15,16 +20,21 @@
         
 
     </div> --}}
+
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <button id="home" type="submit" class="btn btn-danger">Home</button>
+        </li>
+        <li class="nav-item">
+            <button type="submit" class="btn btn-danger"><i class="fas fa-user"> Sign in</i></button>
+        </li>
+        <li class="nav-item">
+            <button type="submit" class="btn btn-danger"><i class="fas fa-user-plus"> Sign up</i></button>
+        </li>
+    </ul>
+
     <div class="apiQuote"></div>
     <div class="dbQuote">
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Sign Up</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"> Login</a>
-            </li>
-        </ul>
 
 
         <h1>Unforgettable Love and Memories</h1>
@@ -62,16 +72,33 @@
 
             <div class="form-group">
                 <label for="auth"></label>
-                <textarea type="text" id="auth" cols="20" name="author" placeholder="author..."></textarea>
+                <textarea style="border: 2px solid red;" type="text" id="auth" cols="60" name="author"
+                    placeholder="author..."></textarea>
             </div>
             <div class="form-group">
-                <textarea id=" upload" name="author" cols="40" placeholder="add your picture..."></textarea> <br>
+                <textarea style="border: 2px solid red;" id=" upload" name="author" cols="60"
+                    placeholder="add your picture..."></textarea> <br>
             </div>
 
             <div class="form-group">
                 <label for="quo"></label>
-                <textarea id="quo" name="quote" rows="8" cols="60" placeholder="write your quote here..."></textarea>
+                <textarea style="border: 2px solid red;" id="quo" name="quote" rows="8" cols="60"
+                    placeholder="write your quote here..."></textarea>
             </div>
             <button type="submit" class="btn btn-danger">Add Quote</button>
 
         </form>
+
+        <div id="follow" class="w3-white w3-margin">
+            <div class="w3-container w3-padding w3-red">
+                <h4>Follow Us</h4>
+            </div>
+            <div class="w3-container w3-xlarge w3-padding">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+                <i class="fa fa-snapchat w3-hover-opacity"></i>
+                <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </div>
+        </div>
