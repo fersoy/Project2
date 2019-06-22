@@ -32,9 +32,9 @@ app.set('views', __dirname + '/views');
 
 // Routes
 // =============================================================
+// require("./routes/login-html-routes")(app);
 require("./routes/htmlRoutes.js")(app);
 require("./routes/quote-api-routes.js")(app);
-require("./routes/login-html-routes")(app);
 require("./routes/login-api-routes")(app);
 // require("./routes/post-api-routes.js")(app);
 
