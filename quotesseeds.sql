@@ -37,30 +37,30 @@ VALUES ( 'Elbert Hubbard', '“A friend is someone who knows all about you and s
 INSERT INTO Quotes(author, quote, image)
 VALUES ( 'Martin Luther King Jr.', '“Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.”', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
 );
--- INSERT INTO Quotes(author, quote, image)
--- VALUES ( 'John Green, The Fault in Our Stars', '“As he read, I fell in love the way you fall asleep: slowly, and then all at once.”', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
--- );
--- INSERT INTO Quotes(author, quote, image)
--- VALUES ( 'Pablo Neruda, 100 Love Sonnets', '“I love you without knowing how, or when, or from where. I love you simply, without problems or pride: I love you in this way because I do not know any other way of loving but this, in which there is no I or you, so intimate that your hand upon my chest is my hand, so intimate that when I fall asleep your eyes close.”', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
--- );
--- INSERT INTO Quotes(author, quote, image)
--- VALUES ( 'Neil Gaiman, The Kindly Ones', '“Have you ever been in love? Horrible isn\'t it? It makes you so vulnerable. It opens your chest and it opens up your heart and it means that someone can get inside you and mess you up.” ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
--- );
--- INSERT INTO Quotes(author, quote, image)
--- VALUES ( 'Lao Tzu', '“Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.” ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
--- );
--- INSERT INTO Quotes(author, quote, image)
--- VALUES ( 'Sarah Dessen, The Truth About Forever', '“There is never a time or place for true love. It happens accidentally, in a heartbeat, in a single flashing, throbbing moment.” ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
--- );
--- INSERT INTO Quotes(author, quote, image)
--- VALUES ( 'Robert A. Heinlein, Stranger in a Strange Land', '“Love is that condition in which the happiness of another person is essential to your own.” ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
--- );
--- INSERT INTO Quotes(author, quote, image)
--- VALUES ( 'Jimi Hendrix', '“When the power of love overcomes the love of power, the world will know peace.” ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
--- );
--- INSERT INTO Quotes(author, quote, image)
--- VALUES ( 'Mary Oliver', '“Someone I loved once gave me a box full of darkness. It took me years to understand that this too, was a gift.”', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
--- );
--- INSERT INTO Quotes(author, quote, image)
--- VALUES ( 'Robert A. Heinlein, Stranger in a Strange Land', '“Love is that condition in which the happiness of another person is essential to your own.” ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
--- );
+INSERT INTO Quotes(author, quote, image)
+VALUES ( 'John Green, The Fault in Our Stars', '“As he read, I fell in love the way you fall asleep: slowly, and then all at once.”', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
+);
+INSERT INTO Quotes(author, quote, image)
+VALUES ( 'Pablo Neruda, 100 Love Sonnets', '“I love you without knowing how, or when, or from where. I love you simply, without problems or pride: I love you in this way because I do not know any other way of loving but this, in which there is no I or you, so intimate that your hand upon my chest is my hand, so intimate that when I fall asleep your eyes close.”', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
+);
+INSERT INTO Quotes(author, quote, image)
+VALUES ( 'Neil Gaiman, The Kindly Ones', '“Have you ever been in love? Horrible isn\'t it? It makes you so vulnerable. It opens your chest and it opens up your heart and it means that someone can get inside you and mess you up.” ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
+);
+INSERT INTO Quotes(author, quote, image)
+VALUES ( 'Lao Tzu', '“Being deeply loved by someone gives you strength, while loving someone deeply gives you courage.” ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
+);
+INSERT INTO Quotes(author, quote, image)
+VALUES ( 'Sarah Dessen, The Truth About Forever', '“There is never a time or place for true love. It happens accidentally, in a heartbeat, in a single flashing, throbbing moment.” ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
+);
+INSERT INTO Quotes(author, quote, image)
+VALUES ( 'Robert A. Heinlein, Stranger in a Strange Land', '“Love is that condition in which the happiness of another person is essential to your own.” ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
+);
+INSERT INTO Quotes(author, quote, image)
+VALUES ( 'Jimi Hendrix', '“When the power of love overcomes the love of power, the world will know peace.” ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
+);
+INSERT INTO Quotes(author, quote, image)
+VALUES ( 'William Shakespeare', '“Love looks not with the eyes, but with the mind,And therefore is winged Cupid painted blind.” ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
+);
+INSERT INTO Quotes(author, quote, image)
+VALUES ( 'Andre Gide, Autumn Leaves', '“It is better to be hated for what you are than to be loved for what you are not.”  ', 'http://www.iconarchive.com/download/i66640/designbolts/free-valentine-heart/Heart-I-Love-You.ico'
+);
