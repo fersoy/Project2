@@ -61,17 +61,17 @@
         <form class="create-form">
 
             <div class="form-group">
-                <label for="auth">Author:</label>
-                <input type="text" id="auth" name="author">
+                <label for="auth"></label>
+                <textarea type="text" id="auth" cols="20" name="author" placeholder="author..."></textarea>
+            </div>
+            <div class="form-group">
+                <textarea id=" upload" name="author" cols="40" placeholder="add your picture..."></textarea> <br>
             </div>
 
             <div class="form-group">
-                <label for="quo">Quote:</label>
-                <textarea id="quo" name="quote" rows="8" cols="30"></textarea>
+                <label for="quo"></label>
+                <textarea id="quo" name="quote" rows="8" cols="60" placeholder="write your quote here..."></textarea>
             </div>
-            <div class="form-group">
-                <p>Add Picture:</p>
-                <input id="upload" name="author"> <br>
-                <button type="submit">Add Quote</button>
-            </div>
+            <button type="submit" class="btn btn-danger">Add Quote</button>
+
         </form>
